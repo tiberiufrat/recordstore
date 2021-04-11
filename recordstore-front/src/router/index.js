@@ -28,6 +28,6 @@ export default new Router({
       path: '/records',
       name: 'Records',
       component: Records
-    },
+    }
   ]
 })

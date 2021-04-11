@@ -4,9 +4,9 @@
     <h3 class="font-mono font-regular text-3xl mb-4">Add a new artist</h3>
     <form action="" @submit.prevent="addArtist">
       <div class="mb-6">
-        <input type="text" 
+        <input type="text"
           class="input"
-          autofocus 
+          autofocus
           required
           autocomplete="off"
           placeholder="Type an arist name"

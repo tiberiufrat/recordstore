@@ -9,7 +9,7 @@
           type="text"
           id="record_title"
           class="input"
-          autofocus required 
+          autofocus required
           autocomplete="off"
           placeholder="Type a record name"
           v-model="newRecord.title" />
@@ -21,7 +21,7 @@
           type="number"
           id="record_year"
           class="input"
-          autofocus required 
+          autofocus required
           autocomplete="off"
           placeholder="Year"
           min="1000" max="3000"
